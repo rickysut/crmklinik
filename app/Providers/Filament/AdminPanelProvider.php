@@ -46,8 +46,8 @@ class AdminPanelProvider extends PanelProvider
                 FilamentSpatieRolesPermissionsPlugin::make(),
                 FilamentEditProfilePlugin::make()
                 ->slug('my-profile')
-                ->setTitle('My Profile')
-                ->setNavigationLabel('My Profile')
+                ->setTitle('Profile')
+                ->setNavigationLabel('Profile')
                 ->setNavigationGroup('Settings')
                 ->setIcon('heroicon-o-user')
                 ->setSort(10)
